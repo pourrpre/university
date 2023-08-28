@@ -22,23 +22,23 @@ public class Student implements GoToUni, Eateable, WriteOffTask {
     }
 
     public void callStud() {
-        System.out.println(sName + " - студент университета " + uni.uName + ", его преподаватель - " + teacher.tName + ".");
+        System.out.println(sName + " - student of the university " + uni.uName + ", his professor - " + teacher.tName + ".");
     }
 
     @Override
     public void goToLesson() {
-        System.out.println("Сегодня, 29 января, студент " + uni.uName + " " + sName + " пошёл на пару информатики. Его преподаватель - " + teacher.tName);
+        System.out.println("Today, January 29, student " + uni.uName + " " + sName + " went to a computer science class. His professor - " + teacher.tName);
     }
 
 
     @Override
     public void writeOfHomework() {
-        System.out.println("Как раз по пути к " + uni.uName + " " + sName + " вспомнил, что забыл сделать домашнее задание. Как удачно, что он встретил одногруппницу, разрешившую списать у неё.");
+        System.out.println("Just on the way to " + uni.uName + " " + sName + " remembered that he forgot to do his homework. How lucky that he met a classmate who allowed him to write off her homework.");
     }
 
     @Override
     public void eat() {
-        System.out.println(sName + " после долгой и сложной лекции с радостью убежал в родное общежитие обедать пельменями.");
+        System.out.println("After a long and difficult lecture, " + sName + " happily ran away to his native dormitory to dine with dumplings.");
     }
 
     @Override

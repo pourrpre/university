@@ -11,9 +11,9 @@ public class _Main {
         University uni = new University();
         Teacher teacher = new Teacher();
 
-        stud.setsName("Иван Иванов");
-        uni.setuName("НГУ");
-        teacher.settName("Валентин Николаевич");
+        stud.setsName("Ivan Ivanov");
+        uni.setuName("NSU");
+        teacher.settName("Valentin Nikolaevich");
 
         stud.setUni(uni);
         stud.setTeacher(teacher);

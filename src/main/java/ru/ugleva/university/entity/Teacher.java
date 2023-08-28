@@ -15,7 +15,7 @@ public class Teacher implements GoToUni, Eateable, CheckUpTest {
     }
 
     public void callTeacher() {
-        System.out.println(tName + " - преподаватель университета " + uni.uName + ". Его студент - " + stud.sName + ".");
+        System.out.println(tName + " - university teacher " + uni.uName + ". His student - " + stud.sName + ".");
     }
 
     public void setStud(Student sName) {
@@ -28,17 +28,17 @@ public class Teacher implements GoToUni, Eateable, CheckUpTest {
 
     @Override
     public void goToLesson() {
-        System.out.println("Сегодня, 29 января, преподаватель " + uni.uName + " " + tName + " отправился на пары. Один из его студентов - " + stud.sName + ".");
+        System.out.println("Today, January 29, " + uni.uName + " teacher " + tName + " went to class. One of his students is - " + stud.sName + ".");
     }
 
     @Override
     public void eat() {
-        System.out.println(tName + " дождался перерыва и отправился в университетскую столовую. Сегодня в меню жаркое с тушёными овощами.");
+        System.out.println(tName + " waited for a break and went to the university cafeteria. Today's menu is roast with stewed vegetables.");
     }
 
     @Override
     public void checkUpTest() {
-        System.out.println("Перед тем, как уйти из " + uni.uName + ", " + tName + " проверяет студенческие контрольные. Хорошо написали далеко не все.");
+        System.out.println("Before leaving " + uni.uName + ", " + tName + " checks the student's tests. Not all of them are well-written.");
     }
 }
 
