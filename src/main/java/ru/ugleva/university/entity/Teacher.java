@@ -1,9 +1,5 @@
 package ru.ugleva.university.entity;
 
-import ru.ugleva.university.service.CheckUpTest;
-import ru.ugleva.university.service.Eateable;
-import ru.ugleva.university.service.GoToUni;
-
 public class Teacher implements GoToUni, Eateable, CheckUpTest {
 
     String tName;

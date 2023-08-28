@@ -1,9 +1,5 @@
 package ru.ugleva.university.entity;
 
-import ru.ugleva.university.service.Eateable;
-import ru.ugleva.university.service.GoToUni;
-import ru.ugleva.university.service.WriteOffTask;
-
 public class Student implements GoToUni, Eateable, WriteOffTask {
     String sName;
     University uni;

@@ -1,4 +1,4 @@
-package ru.ugleva.university.service;
+package ru.ugleva.university.entity;
 
 public interface Eateable {
 
